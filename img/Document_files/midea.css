@@ -1,0 +1,115 @@
+@media (max-width : 1500px) {
+    .card {
+        margin-top: 2rem;
+        width: 80%;
+    }
+
+    .img-dora {
+        width: 7rem;
+
+    }
+
+    .img-child {
+        width: 7rem;
+    }
+    .cardds {
+        background-color: #ff7f5073;
+        border-radius: 20%;
+        padding: 7rem;
+        display: grid;
+        grid-template-columns: auto auto;
+        /* justify-content: space-between; */
+        /* flex-direction: column; */
+    }
+
+}
+    @media (max-width : 1200px){
+        .card {
+            margin-top: 2rem;
+            width: 100%;
+        }
+    
+        .img-dora {
+            width: 7rem;
+    
+        }
+    
+        .img-child {
+            width: 7rem;
+        }
+        .cardds {
+            background-color: #ff7f5073;
+            border-radius: 20%;
+            padding: 7rem;
+            display: grid;
+            grid-template-columns:  auto;
+            /* justify-content: space-between; */
+            /* flex-direction: column; */
+        }
+    }
+
+@media (max-width : 800px) {
+    nav {
+        display: block;
+    }
+
+    .none {
+        display: none;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .all {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .cardds {
+        padding: 4rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .all-page {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        gap: 2rem;
+        align-items: center
+    }
+
+    .fa-bars {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .li-text {
+        font-size: 1rem;
+        color: white;
+    }
+
+    .side2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .side1 {
+        font-size: 25px;
+        margin: 0px;
+        border: 2px solid #e7e0e0;
+        padding: 14px;
+
+        border-radius: 10px;
+        background: #fcc30b;
+    }
+
+}
